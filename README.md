@@ -1,2 +1,2 @@
-# Frontend Web
+# REACT
 <!-- frontend masters course (https://react-v8.holt.courses/lessons/welcome/intro) -->
