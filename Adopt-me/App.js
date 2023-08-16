@@ -1,8 +1,8 @@
-const pet = () =>{
+const pet = (props) =>{
   return React.createElement("div", {}, [
-    React.createElement("h1", {}, "codie"),
-    React.createElement("h2", {}, "12 years"),
-    React.createElement("h3", {}, "German shepherd")
+    React.createElement("h1", {}, props.name),
+    React.createElement("h2", {}, props.city),
+    React.createElement("h3", {}, props.state),
   ])
 };
 const App = () => {
@@ -10,7 +10,16 @@ const App = () => {
     "div", 
     {},[
     React.createElement("h1", {}, "i love you"),
-    React.createElement(pet)]
+    React.createElement(pet, {
+      name: "Codie",
+      city: "Nairobi",
+      state: "Westlands",
+    }), 
+    React.createElement(pet, {
+      name: "kitty",
+      city: "Nairobi",
+      state: "Parklands"
+    })  ]
   );
 }; 
 
