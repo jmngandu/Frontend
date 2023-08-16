@@ -1,2 +1,2 @@
 # Frontend Web
-<! -- https://react-v8.holt.courses/lessons/welcome/intro -->
+<!-- frontend masters course (https://react-v8.holt.courses/lessons/welcome/intro) -->
