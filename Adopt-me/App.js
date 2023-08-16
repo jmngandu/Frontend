@@ -17,7 +17,7 @@ const App = () => {
     }), 
     React.createElement(pet, {
       name: "kitty",
-      city: "Nairobi",
+      city: "Nairobi",    
       state: "Parklands"
     })  ]
   );
