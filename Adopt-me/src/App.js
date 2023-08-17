@@ -26,3 +26,11 @@ const App = () => {
 const root = document.getElementById("root");
 const container = ReactDOM.createRoot(root);
 container.render(React.createElement(App))
+
+const intev = document.getElementById("intev");
+intev.addEventListener("click", function(){
+  setInterval =(2000) => {
+alert("say hi")
+    
+  };
+})
