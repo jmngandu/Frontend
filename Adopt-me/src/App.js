@@ -30,7 +30,4 @@ container.render(React.createElement(App))
 const intev = document.getElementById("intev");
 intev.addEventListener("click", function(){
   setInterval =(2000) => {
-alert("say hi")
-    
-  };
-})
+a
