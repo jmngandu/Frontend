@@ -1,6 +1,6 @@
 import React from "react"
 
- function navBar(){
+export default function navBar(){
     return(
      <>
         <h1>JTHREEGLOBALLY</h1>
@@ -13,4 +13,3 @@ import React from "react"
      </>
   )
   }
-  export default navBar
