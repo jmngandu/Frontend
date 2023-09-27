@@ -1,2 +1,2 @@
-# coffee masters
-<!--https://firtman.github.io/vanilla-->
+#React Project, open for contribution<br>
+Feel free to contribute
