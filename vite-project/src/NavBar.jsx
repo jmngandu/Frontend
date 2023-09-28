@@ -13,6 +13,5 @@ export default function NavBar(){
               <li>CONTACTS</li>
           </ul>
           </div>
-          </>
-    )
+           )
 }
