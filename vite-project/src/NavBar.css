@@ -5,6 +5,7 @@
     background-color:#264653;
     color: #4286f5;
     position:absolute;top: 15px;left: 50%;z-index: 3;
+    border-radius: 30px;
   }
 .nav-ul{
     display: flex;
@@ -12,4 +13,4 @@
 .nav-ul >li{
     list-style: none;
     padding: 10px;
-}
+    }

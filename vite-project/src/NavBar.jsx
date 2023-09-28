@@ -3,8 +3,9 @@ import "./NavBar.css"
 
 export default function NavBar(){
     return(
+           
       <div className="the-bar">
-          <l1>JTHREEGLOBALLY</l1>
+      <l1>JTHREEGLOBALLY</l1>
           <ul className="nav-ul">
               <li>HOME</li>
               <li>SERVICES</li>
@@ -12,5 +13,6 @@ export default function NavBar(){
               <li>CONTACTS</li>
           </ul>
           </div>
+          </>
     )
 }
