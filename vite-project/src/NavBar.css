@@ -14,3 +14,7 @@
     list-style: none;
     padding: 10px;
     }
+.nav-ul >li:hover{
+    color: white;
+    text-decoration: overline;
+}
