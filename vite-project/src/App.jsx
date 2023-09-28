@@ -13,17 +13,7 @@ function App() {
       JTHREEGLOBALLY
       </div>
       <h1>Community Site</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Good times and great hits
-        </p>
-      </div>
-      <p className="read-the-docs">
-       Allow the chief to announce the community meetings
-      </p>
+      
     </>
   )
 }
