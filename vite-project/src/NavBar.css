@@ -1,10 +1,11 @@
 .the-bar{
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items:center;
+    justify-content:space-between;
     background-color:#264653;
     color: #4286f5;
-}
+    position:absolute;top: 15px;left: 50%;z-index: 3;
+  }
 .nav-ul{
     display: flex;
 }
