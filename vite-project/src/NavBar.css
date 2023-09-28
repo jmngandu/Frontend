@@ -1,0 +1,12 @@
+.the-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-ul{
+    display: flex;
+}
+.nav-ul >li{
+    list-style: none;
+    padding: 10px;
+}
