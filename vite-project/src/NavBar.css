@@ -1,21 +1,25 @@
 .the-bar{
-    align-items:center;
-    justify-content:space-between;
+    color: #4286f5;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center; 
+}
+ .nav-ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     background-color:#264653;
     color: #4286f5;
-    position:absolute;top: 15px;left: 50%;z-index: 3;
     border-radius: 30px;
-     }
-.nav-ul{
-    display: flex;
-    flex-grow: 1;
     
 }
 .nav-ul >li{
     list-style: none;
     padding: 10px;
     margin: 10px;
-    background-color: burlywood;
     }
 .nav-ul >li:hover{
     color: white;
