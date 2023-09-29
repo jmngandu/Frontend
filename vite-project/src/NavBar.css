@@ -1,12 +1,13 @@
 .the-bar{
-    color: #4286f5;
+    color: #6dd5ed;
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center; 
-    background-color: #0082e6;
+    background-color: #076585;
+    border-radius: 10px
    }
  .nav-ul{
     display: flex;
