@@ -1,1 +1,15 @@
-.main
+.mainsec1{
+    color: brown;
+    background-color: gray;
+}
+.mainsec2{
+    background-color:gray;
+}
+.mainsec3{
+    background-color: gray;
+}
+.wrappert{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+}
