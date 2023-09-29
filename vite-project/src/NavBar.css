@@ -7,15 +7,14 @@
     justify-content: space-between;
     align-items: center; 
     background-color: #0082e6;
-}
+   }
  .nav-ul{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
     background-color:#264653;
     color: #4286f5;
     border-radius: 30px;
-    
+    float: right;
 }
 .nav-ul >li{
     list-style: none;
@@ -25,6 +24,7 @@
 .nav-ul >li:hover{
     color: white;
     text-decoration: overline;
+    transition:5s;
 }
 /* @media all and (max-width:873px) {
     .nav-ul{
