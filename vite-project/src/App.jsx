@@ -7,6 +7,7 @@ function App() {
    return (
     <>
     <NavBar />
+    <SectionMain />
       <div>
       JTHREEGLOBALLY
       </div>
