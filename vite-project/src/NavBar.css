@@ -1,15 +1,14 @@
 .the-bar{
-    display: flex;
     align-items:center;
     justify-content:space-between;
     background-color:#264653;
     color: #4286f5;
     position:absolute;top: 15px;left: 50%;z-index: 3;
     border-radius: 30px;
-    flex-grow: 1;
-  }
+     }
 .nav-ul{
     display: flex;
+    flex-grow: 1;
     
 }
 .nav-ul >li{
@@ -17,15 +16,14 @@
     padding: 10px;
     margin: 10px;
     background-color: burlywood;
-    flex-grow: 1;
     }
 .nav-ul >li:hover{
     color: white;
     text-decoration: overline;
 }
-@media all and (max-width:873px) {
+/* @media all and (max-width:873px) {
     .nav-ul{
         display: block;
     }
     
-}
+} */

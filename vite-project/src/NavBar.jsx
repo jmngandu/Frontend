@@ -9,7 +9,7 @@ export default function NavBar(){
               <li>HOME</li>
               <li>SERVICES</li>
               <li>ABOUT</li>
-              <li className="lid">CONTACTS</li>
+              <li>CONTACTS</li>
           </ul>
           </div>
            )
