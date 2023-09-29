@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import NavBar from './NavBar'
+import SectionMain from './SectionMain'
 
 function App() {
    return (
