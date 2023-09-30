@@ -2,7 +2,7 @@ import React from "react";
 import { preprocessCSS } from "vite";
 import "./SectionMain.css"
 
-export default function SectionMain(fsevents) {
+export default function SectionMain(props) {
     return(
         <div className="wrapper">
             <div className="cars">
