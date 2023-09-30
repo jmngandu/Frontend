@@ -3,15 +3,60 @@ import "./SectionMain.css"
 
 export default function SectionMain() {
     return(
-        <>
-        <div className="wrappert">
-        <div className="
-        mainsec1">Lorem ipsum dolor sit, amet Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia laboriosam a quisquam inventore accusamus commodi sed id sapiente sunt quae esse vitae dolorem est facilis officiis natus hic, assumenda perferendis.</div>
-        <div className="
-        mainsec2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime beatae unde, est ratione inventore error aperiam adipisci, repudiandae pariatur necessitatibus rem odio nulla, perferendis voluptatem. Quos, optio repudiandae? Ab, odit.</div>
-        <div className="
-        mainsec3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorem alias provident deleniti ea praesentium quia et atque ipsum tempore debitis ullam, esse eligendi aut id suscipit ratione ut? Quibusdam, aliquid!</div>
+        <div className="contacts">
+        
+        <div className="contact-card">
+            <img src="../assets/muk.jpg"/>
+            <h3>Mr. Whiskerson</h3>
+            <div className="info-group">
+                <img src="./assets/muk.jpg" />
+                <p>(212) 555-1234</p>
+            </div>
+            <div className="info-group">
+                <img src="./images/mail-icon.png" />
+                <p>mr.whiskaz@catnap.meow</p>
+            </div>
         </div>
-        </>
+        
+        <div className="contact-card">
+            <img src="./images/fluffykins.png"/>
+            <h3>Fluffykins</h3>
+            <div className="info-group">
+                <img src="./images/phone-icon.png" />
+                <p>(212) 555-2345</p>
+            </div>
+            <div className="info-group">
+                <img src="./images/mail-icon.png" />
+                <p>fluff@me.com</p>
+            </div>
+        </div>
+        
+        <div className="contact-card">
+            <img src="./images/felix.png"/>
+            <h3>Felix</h3>
+            <div className="info-group">
+                <img src="./images/phone-icon.png" />
+                <p>(212) 555-4567</p>
+            </div>
+            <div className="info-group">
+                <img src="./images/mail-icon.png" />
+                <p>thecat@hotmail.com</p>
+            </div>
+        </div>
+        
+        <div className="contact-card">
+            <img src="./images/pumpkin.png"/>
+            <h3>Pumpkin</h3>
+            <div className="info-group">
+                <img src="./images/phone-icon.png" />
+                <p>(0800) CAT KING</p>
+            </div>
+            <div className="info-group">
+                <img src="./images/mail-icon.png" />
+                <p>pumpkin@scrimba.com</p>
+            </div>
+        </div>
+        
+        </div>
     )
 }

@@ -9,9 +9,9 @@ function App() {
     <NavBar />
     <SectionMain />
       <div>
-      JTHREEGLOBALLY
+      welcome to :
       </div>
-      <h1>Community Site</h1>
+      <h1>JTHREEGLOBALLY NETWORKS</h1>
       
     </>
   )
