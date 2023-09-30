@@ -9,7 +9,7 @@ export default function SectionMain() {
             <img src="../assets/muk.jpg"/>
             <h3>Mr. Whiskerson</h3>
             <div className="info-group">
-                <img src="./assets/muk.jpg" />
+                <img src="./src/assets/muk.jpg" />
                 <p>(212) 555-1234</p>
             </div>
             <div className="info-group">
