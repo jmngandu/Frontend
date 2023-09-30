@@ -37,9 +37,10 @@
     transition:5s;
     border-radius: 30px;
 }
- @media all and (max-width:207px) {
+ @media all and (max-width:500px) {
     .nav-ul{
-        display: block;
+        /* display: block; */
+        flex-wrap: wrap;
     }
     
 } 
