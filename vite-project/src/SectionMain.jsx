@@ -1,8 +1,14 @@
 import React from "react";
+import { preprocessCSS } from "vite";
 import "./SectionMain.css"
 
-export default function SectionMain() {
+export default function SectionMain(props) {
     return(
-        <h1>JTHREEGLOBALLY</h1>
+        <div className="wrapper">
+            <img src={props.img} className="cars"/>
+            <h3 className="brand">{props.brand}</h3>
+            <h4 className="type">{props.type}</h4>
+            <h5 className="cost">{props.cost}</h5>
+        </div>
     )
 }

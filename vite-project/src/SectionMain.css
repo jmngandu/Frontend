@@ -1,0 +1,16 @@
+body{
+    display: flex;
+}
+.wrapper{
+    width: 250px;
+    border: 5px solid black;
+    align-items: center;
+    height: 300px;
+   }
+.cars{
+    width: 200px;
+    margin-top: 10px;
+}
+.brand, .type, .cost{
+    margin: 0px;
+}
