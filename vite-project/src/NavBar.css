@@ -8,6 +8,7 @@
     align-items: center; 
     background-color: #076585;
     border-radius: 10px
+    line
    }
  .nav-ul{
     display: flex;
@@ -21,11 +22,14 @@
     list-style: none;
     padding: 10px;
     margin: 10px;
+    
     }
 .nav-ul >li:hover{
     color: white;
+    background-color: #21222A;
     text-decoration: overline;
     transition:5s;
+    border-radius: 30px;
 }
 /* @media all and (max-width:873px) {
     .nav-ul{
