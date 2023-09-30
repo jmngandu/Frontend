@@ -8,7 +8,7 @@ function App() {
     <div>
     <NavBar />
       <h1>JTHREEGLOBALLY NETWORKS</h1>
-       <SectionMain 
+       {/* <SectionMain 
        img="./src/Carlogo/ferari.jpg"
         brand="Ferari"
        type="Germany Machine"
@@ -49,7 +49,7 @@ function App() {
        type="Germany Machine"
        cost="$4m ksh"
        />
-      
+       */}
     </div>
   )
 }
