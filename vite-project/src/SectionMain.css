@@ -6,11 +6,24 @@ body{
     border: 5px solid black;
     align-items: center;
     height: 300px;
-   }
+    margin: 10px 10px;
+    background-color:gray;
+    }
 .cars{
-    width: 200px;
+    width: 180px;
+    height: 200px;
     margin-top: 10px;
-}
+    border-radius: 5px;
+    }
 .brand, .type, .cost{
     margin: 0px;
 }
+.Mainsub{
+    display: flex;
+    padding: 10px;
+    justify-content:center;
+    flex-grow: 1;
+   flex-wrap: wrap;
+   align-items: center;
+   }
+  
