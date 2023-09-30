@@ -28,12 +28,6 @@ export default function SectionMain() {
             <div className="info-group">
                 <img src="./images/mail-icon.png" />
                 <p>fluff@me.com</p>
-            </div>
-        </div>
-        
-        <div class
-        </div>
-        
-        </div>
+            <
     )
 }
