@@ -7,9 +7,9 @@
     justify-content: space-between;
     align-items: center; 
     background-color: #076585;
-    border-radius: 10px
-    line
-   }
+    border-radius: 10px;
+    line-height: 1px; 
+    }
  .nav-ul{
     display: flex;
     flex-wrap: wrap;
@@ -17,6 +17,11 @@
     color: #4286f5;
     border-radius: 30px;
     float: right;
+    background-image: url(./assets/icons8-favicon.gif);
+    background-repeat: no-repeat;
+    background-position-x:left;
+    background-position-y:center;
+        
 }
 .nav-ul >li{
     list-style: none;
