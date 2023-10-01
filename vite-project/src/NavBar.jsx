@@ -6,6 +6,7 @@ export default function NavBar(){
            
       < nav className="the-bar">
         <h1>JM-NGANDU</h1>
+        
        <ul className="nav-ul">
               <li className="yes1">HOME</li>
               <li className="yes2">SERVICES</li>
