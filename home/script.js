@@ -1,6 +1,6 @@
-function watchmore(){
-    alert("its jthreeglobally!!")
+function watchmore() {
+    alert("please wait ...")
 }
-function visit(){
-    alert("jm ngandu")
+function visit() {
+    alert("under construction")
 }
